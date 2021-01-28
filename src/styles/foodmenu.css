@@ -1,0 +1,11 @@
+.card-container .card img {
+  opacity: 1;
+}
+
+.card-container .card img:hover {
+  opacity: 0.7;
+}
+.food-menu-container {
+  position: absolute;
+  top: 4rem;
+}
