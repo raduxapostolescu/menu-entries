@@ -1,3 +1,8 @@
+.card-container {
+  flex-basis: 33.33% !important;
+  margin: 2rem 0;
+}
+
 .card-container .card img {
   opacity: 1;
 }

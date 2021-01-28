@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navbar sidebar={this.state.sidebar}></Navbar>
-
         <div className="container">
           <FoodMenu menuEntries={this.state.menuFood} />
         </div>

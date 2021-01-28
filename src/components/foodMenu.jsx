@@ -6,14 +6,11 @@ import "../styles/foodmenu.css";
 class FoodMenu extends Component {
   render() {
     return (
-      <div className="food-menu food-menu-container my-4">
+      <div className="food-menu food-menu-container">
         <div className="row">
           {this.props.menuEntries.map((c) => {
             return (
-              <div
-                key={c.id}
-                className="col-sm my-2 flex-grow-0 card-container"
-              >
+              <div key={c.id} className="col-sm flex-grow-0 card-container">
                 <Card style={{ width: "18rem" }}>
                   <Card.Img variant="top" src={c.img} />
                   <Card.Body>
